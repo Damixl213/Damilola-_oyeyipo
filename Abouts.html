@@ -14,7 +14,7 @@
   <header>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-      <div class="container-fluid">
+      <div class="container">
         <!-- Logo -->
         <a class="navbar-brand fs-4" id="WO" style="color: bisque;" href="https://www.linkedin.com/in/damilola-oyeyipo-b483ba2ab/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BelVd6LdhQ8W%2Fl%2FoCg8oj%2Bw%3D%3D">Oyeyipo Oluwadamilola<img src="./image/back_ground.jpeg" style="margin-left: 10px;" class="rounded-circle " height="40" width="40px">
           <!-- Toggle Btn --> </a>
@@ -27,7 +27,7 @@
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
            <!-- Sidebar Header -->
           <div class="offcanvas-header text-white border-bottom">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Oyeyipo Oluwadamilola <br> <img src="./image/dami4.jpg" style=" background-position: center;" class="rounded-circle " height="40" width="40px"></h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Oyeyipo Oluwadamilola <br> <img src="./image/dami4.jpg" style=" background-position: center;" class="rounded-circle " height="40px" width="40px"></h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <!-- Sidebar Body -->
@@ -41,9 +41,6 @@
               </li>
               <li class="nav-item mx-2">
                 <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" href="./information.html">Blog</a>
               </li>
               <li class="nav-item mx-2">
                 <a class="nav-link" href="./Portifolio.html">Portfolio</a>
@@ -73,6 +70,8 @@
 
 
   <section class="fo">
+    <div class="container">
+
     <!-- Carousel -->
     <div id="demo" class="carousel slide" data-bs-ride="carousel" style="height: 100vh; width: 100vh; ">
     
@@ -81,6 +80,7 @@
         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
       </div>
       
       <!-- The slideshow/carousel -->
@@ -92,7 +92,7 @@
           </div>
         </div>
         <div class="carousel-item"   style="height: 100vh; width: 100vh;">
-          <img src="./image/miva.jpg" alt="Chicago" class="d-block" style="width:100%">
+          <img src="./image/WhatsApp Image 2024-04-27 at 20.50.39_9dff69b5.jpg" alt="Chicago" class="d-block" style="width:100%">
           <div class="carousel-caption text-info">
             <h3>Miva hangout 🥳</h3>
             <p>We had such a great time in Miva hangout</p> 
@@ -103,6 +103,13 @@
           <div class="carousel-caption">
             <h3>Studying Full-stack </h3>
             <p>Am currently studying Full-stack</p>
+          </div>  
+        </div>
+        <div class="carousel-item " style="height:100vh; width: 100vh;" >
+          <img src="./image/WhatsApp Image 2024-04-27 at 20.50.40_cca976e4.jpg" alt="New York" class="d-block" style="width:100%">
+          <div class="carousel-caption">
+            <h3>Miva hangout</h3>
+            <p>Am looking forward for the next one</p>
           </div>  
         </div>
       </div>
@@ -116,22 +123,23 @@
       </button>
     </div>
     
-    <div class="container-fluid mt-3 mt-4 p-5 bg-muted text-white"  data-aos="fade-right">
-      <h3 class="display-4" style="font-weight: bold;" >My profile </h3>
+    <div class="container-fluid mt-3 mt-4 p-5 bg-muted text-white">
+      <h3 class="display-4" style="font-weight: bold; " data-aos="fade-down" >My profile </h3>
      <br>
      <br>
-      <p><span class="text-info">Name:</span>  Oyeyipo David Oluwadamilola</p> 
-      <p><span class=" text-info">Country:</span> Nigeria</p> 
-      <p><span class="text-info">Email:</span> dammydave1610@gmail.com</p> 
-      <p><span class=" text-info">Experience:</span> +1years</p> 
-      <p><span class=" text-info">Language:</span> English</p> 
-      <p><span class=" text-info">Skills:</span> Fontenddevelopr, Photographer/Video editor, Gospel Musician </p> 
+      <p data-aos="fade-right" ><span class="text-info" >Name:</span>  Oyeyipo David Oluwadamilola</p> 
+      <p data-aos="fade-right"><span class=" text-info">Country:</span> Nigeria</p> 
+      <p data-aos="fade-right"><span class="text-info">Email:</span> dammydave1610@gmail.com</p> 
+      <p data-aos="fade-right"><span class=" text-info">Experience:</span> +1years</p> 
+      <p data-aos="fade-right"><span class=" text-info">Language:</span> English</p> 
+      <p data-aos="fade-right"><span class=" text-info">Skills:</span> Fontenddevelopr, Photographer/Video editor, Gospel Musician </p> 
 
     </div>
+  </div>
     </section>
 <section>
-  <div class="mt-4 p-5  text-white rounded" style="border: white;" data-aos="zoom-in-left">
-    <h1>About Oluwadamilola</h1>
+  <div class="mt-4 p-5  text-white rounded" style="border: white;" data-aos="fade-down">
+    <h1 data-aos="fade-right" >About Oluwadamilola</h1>
     <p>Hi, Oluwadamilola Oyeyipo is a dedicated Frontend Developer based in Lagos, Nigeria, with a robust foundation in web development. Currently pursuing a Bachelor of Science in Software Engineering at MIVA Open University, Oluwadamilola specializes in HTML, CSS, and JavaScript, crafting various website templates, including e-commerce platforms, personal websites, and landing pages. <br> <br>
 
       Before venturing into the field of software engineering, Oluwadamilola completed secondary education at St. Peter's, where the foundation for a strong academic and ethical background was laid. Alongside academic pursuits, Oluwadamilola has been an active contributor to the church community, serving as a photographer and graphic designer, blending technical skills with creative expression. <br> <br>
